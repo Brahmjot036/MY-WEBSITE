@@ -1,0 +1,708 @@
+<<<<<<< HEAD
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - MY PORTFOLIO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>PORTFOLIO</strong> <span>BRAHMJOT SINGH</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">My resume and Certificates</a></li>
+							<li><a href="generic.html">Projects</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+						</ul>
+					</nav>
+
+				<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    /* Portfolio section styling */
+    .portfolio {
+      padding: 20px;
+      background-color: #000860;
+    }
+
+    .project-item {
+      list-style: none;
+      margin: 20px;
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    .project-item:hover {
+      transform: scale(1.05);
+    }
+
+    .project-img {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .project-img img {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      max-height: 200px;
+      border: 3px solid #ddd;
+      border-radius: 8px;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+
+    .project-item-icon-box {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 5px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .project-item-icon-box ion-icon {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .project-title {
+      margin-top: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .project-category {
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    /* Modal styling */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 60px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+
+    .modal-content,
+    #caption {
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+
+    @keyframes zoom {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #002143;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+
+  .back-button:hover {
+    background-color: #002e60;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Main -->
+  <div id="main" class="alt">
+    <!-- Main -->
+    <div id="main">
+      <!-- One -->
+      <section id="one">
+        <div class="inner">
+          <header class="major">
+            <h2>MY PROJECTS</h2>
+          </header>
+        </div>
+      </section>
+
+      <!-- #PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title"></h2>
+        </header>
+
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="Machine Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\ml 1.png" alt="Stock Market prediction" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Stock Market Prediction</h3>
+                <p class="project-category">Machine Learning Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Machine Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\ml 2.png" alt="Sketch conversion" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Sketch Conversion</h3>
+                <p class="project-category">Machine Learning Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Machine Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\ml 3.png" alt="Decision Tree" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Decision Tree</h3>
+                <p class="project-category">Machine Learning Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Data Analysis Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\DA.png" alt="Data Analysis (Terrorism)" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Data Analysis (Terrorism)</h3>
+                <p class="project-category">Data Analysis Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Data Analysis Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\bi.png" alt="E-commerce Sales Dashboard" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">E-commerce Sales Dashboard</h3>
+                <p class="project-category">Data Analysis Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Deep Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\DL.png" alt="Next Word Prediction" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Next Word Prediction</h3>
+                <p class="project-category">Deep Learning Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Deep Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\DL2.png" alt="Music Recommendation System (Based on Moods)" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Music Recommendation System (Based on Moods)</h3>
+                <p class="project-category">Deep Learning Projects</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Modal Structure -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div id="caption"></div>
+  <button id="backButton" class="back-button">Back</button>
+</div>
+
+  <!-- JavaScript for Modal Functionality -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImage");
+    var captionText = document.getElementById("caption");
+    var images = document.querySelectorAll(".popup-image");
+    var backButton = document.getElementById("backButton");
+
+    images.forEach(function (img) {
+      img.addEventListener("click", function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      });
+    });
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    backButton.onclick = function () {
+      modal.style.display = "none";
+    };
+  });
+  </script>
+</body>
+</html>
+
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+=======
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - MY PORTFOLIO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>PORTFOLIO</strong> <span>BRAHMJOT SINGH</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">My resume and Certificates</a></li>
+							<li><a href="generic.html">Projects</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+						</ul>
+					</nav>
+
+				<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    /* Portfolio section styling */
+    .portfolio {
+      padding: 20px;
+      background-color: #000860;
+    }
+
+    .project-item {
+      list-style: none;
+      margin: 20px;
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    .project-item:hover {
+      transform: scale(1.05);
+    }
+
+    .project-img {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .project-img img {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      max-height: 200px;
+      border: 3px solid #ddd;
+      border-radius: 8px;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+
+    .project-item-icon-box {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 5px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .project-item-icon-box ion-icon {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .project-title {
+      margin-top: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .project-category {
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    /* Modal styling */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 60px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+
+    .modal-content,
+    #caption {
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+
+    @keyframes zoom {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #002143;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+
+  .back-button:hover {
+    background-color: #002e60;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Main -->
+  <div id="main" class="alt">
+    <!-- Main -->
+    <div id="main">
+      <!-- One -->
+      <section id="one">
+        <div class="inner">
+          <header class="major">
+            <h2>MY PROJECTS</h2>
+          </header>
+        </div>
+      </section>
+
+      <!-- #PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title"></h2>
+        </header>
+
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="Machine Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\ml 1.png" alt="Stock Market prediction" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Stock Market Prediction</h3>
+                <p class="project-category">Machine Learning Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Machine Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\ml 2.png" alt="Sketch conversion" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Sketch Conversion</h3>
+                <p class="project-category">Machine Learning Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Machine Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\ml 3.png" alt="Decision Tree" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Decision Tree</h3>
+                <p class="project-category">Machine Learning Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Data Analysis Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\DA.png" alt="Data Analysis (Terrorism)" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Data Analysis (Terrorism)</h3>
+                <p class="project-category">Data Analysis Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Data Analysis Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\bi.png" alt="E-commerce Sales Dashboard" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">E-commerce Sales Dashboard</h3>
+                <p class="project-category">Data Analysis Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Deep Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\DL.png" alt="Next Word Prediction" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Next Word Prediction</h3>
+                <p class="project-category">Deep Learning Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Deep Learning Projects">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="C:\Users\Hp\Downloads\html5up-forty\pictures\DL2.png" alt="Music Recommendation System (Based on Moods)" loading="lazy" class="popup-image">
+                </figure>
+                <h3 class="project-title">Music Recommendation System (Based on Moods)</h3>
+                <p class="project-category">Deep Learning Projects</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Modal Structure -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div id="caption"></div>
+  <button id="backButton" class="back-button">Back</button>
+</div>
+
+  <!-- JavaScript for Modal Functionality -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImage");
+    var captionText = document.getElementById("caption");
+    var images = document.querySelectorAll(".popup-image");
+    var backButton = document.getElementById("backButton");
+
+    images.forEach(function (img) {
+      img.addEventListener("click", function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      });
+    });
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    backButton.onclick = function () {
+      modal.style.display = "none";
+    };
+  });
+  </script>
+</body>
+</html>
+
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+>>>>>>> bbc875e07bfc0f55ea0cc0a68d8ec503432f2520
+</html>
